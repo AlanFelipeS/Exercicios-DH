@@ -1,0 +1,41 @@
+body{
+    font-family: 'Bakbak One', cursive;
+    margin: 0 40px 0 40px;
+}
+
+footer{
+    border-top: 0.5px solid gray;
+}
+footer ul{
+    text-align: center;
+}
+footer img{
+    width: 50px;
+}
+
+footer li{
+    display: inline;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+header h1{
+    color: red
+}
+
+article.last p {
+    margin-bottom: 40px;
+}
+
+.picture{
+    width: 100%;
+
+}
+
+@media (min-width: 800px) {
+ body{
+    margin: 0 20vw 0 20vw;
+ }
+}
