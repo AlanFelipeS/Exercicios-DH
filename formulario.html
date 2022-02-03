@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/main.css">
+  <title>Shoes</title>
+</head>
+<body>
+  <header>
+    <img src="/img/logo-color.png" alt="">
+    <nav>
+      <ul>
+        <li><a href="#first">TODOS OS PRODUTOS</a></li>
+        <li><a href="#second">COLEÇÕES</a></li>
+        <li><a href="#third">OUTLET</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+
+
+  <main>
+
+    <section>
+        <form >
+            <div class="field">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome " name="nome" placeholder="Seu nome aqui" required>
+            </div>
+            <div class="field">
+                <label for="email">Email</label>
+                <input type="text" id="email " name="nome" placeholder="exemplo@email.com" required>
+            </div>
+            <div class="field">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone " name="telefone" placeholder="(XX) XXXX-XXXX" required>
+            </div>
+
+            <div class="field"><label for="departamento">Departramento</label>
+
+            <select name="departamento" id="departamento" name="departamento">
+                <option selected disabled >Selecione</option>
+                <option value="">Informática</option>
+                <option value="">Recursos Humanos</option>
+                <option value="">Vendas</option>
+            </select>
+        </div>
+
+        <div class="label">
+            <label for="">Disponibilidade</label>
+        <div>
+            <input type="checkbox" id="integral" value="integral" name="disponibilidade">
+            <label for="integral">Integral 8h</label>
+        </div>
+        <div>
+            <input type="checkbox" id="meio-periodo" value="meio-periodo" name="disponibilidade">
+            <label for="meio-periodo">Meio Periodo</label>
+        </div>
+        <div>
+            <input type="checkbox" id="freelancer" value="freelancer" name="disponibilidade">
+            <label for="freelancer">Freelancer</label>
+        </div>    
+        </div>
+
+        <div class="field">
+            <label>Qual a melhor forma para entrarmos em contato com você?</label>
+
+        <div>
+            <input type="radio" id="contato-email" value="contato-email" name="contato">
+            <label for="contato-email">Email</label>
+        </div>
+
+        <div>
+            <input type="radio" id="contato-ligacao" value="contato-ligacao" name="contato">
+            <label for="contato-ligacao">Ligação</label>
+        </div>
+
+        <div>
+            <input type="radio" id="contato-whatsapp" value="contato-whatsapp" name="contato">
+            <label for="contato-whatsapp">WhatsApp</label>
+        </div>
+     </div>
+
+     <div class="field">
+         <label for="menssagem">Menssagem</label>
+         <textarea name="menssagem" id="menssagem" cols="20" rows="10"></textarea>
+     </div>
+
+     <div class="field">
+         <label for="cv">Currículo</label>
+         <input type="file" id="cv">
+     </div>
+
+     <button class="submit" type="submit">Enviar</button>
+     <button class="reset" type="reset">Limpar</button>
+
+
+
+
+
+        </form>
+    </section>
+    
+  </main>
+
+
+
+
+  <footer>
+    <div class="column sm disclaimer">
+      <img src="/img/logo-white.png" alt="">
+      <span>Lorem ipsum dolor sit amet, consectetur adipiscing
+        elit. Duis nisl turpis, tincidunt a tortor hendrerit,
+        auctor lacinia lorem. Cras et magna
+      </span>
+    </div>
+    <div class="column sm categories">
+      <nav>
+        <ul>
+          <li>sandálias</li>
+          <li>botas</li>
+          <li>tênis</li>
+          <li>oxford</li>
+          <li>coturnos</li>
+        </ul>
+      </nav>
+    </div>
+    <div class="column sm institucional">
+      <nav>
+        <ul>
+          <li>sobre nós</li>
+          <li>perguntas frequentes</li>
+          <li>política de privacidade</li>
+          <li>rastreamentos de pedidos</li>
+          <li>trabalhe conosco</li>
+          <li>contato</li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
